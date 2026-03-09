@@ -1,0 +1,36 @@
+<div className="d-flex column g-20px">
+            <span className="color-opac">Vencedor</span>
+
+            <div className="products-listing w-full">
+              <div
+                className={`product-card relative d-flex column justify-between g-4px my-vote`}
+              >
+                <div className="d-flex column g-8px">
+                  <img
+                    src={winner.foto_url || avatarPlaceholder}
+                    alt={winner.nome}
+                  />
+                  <div className="d-flex column g-8px">
+                    <b className="size-12-480px" title={winner.nome}>
+                      {winner.nome}
+                    </b>
+                    <div className="d-flex column g-8px justify-between">
+                      <span className="extra-bold size-12-480px">
+                        {winner.gabinete}
+                      </span>
+                      <span className="size-12">
+                        {winner.total_votos ?? 0}{" "}
+                        <span className="size-12 color-opac">Votos</span>
+                      </span>
+                    </div>
+                    <div className="color-opac size-12">
+                      Proclamado em:{" "}
+                      {winner.proclamado_em
+                        ? new Date(winner.proclamado_em).toLocaleString()
+                        : ""}
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
