@@ -185,7 +185,7 @@ export default function VotePage() {
   }, [candidates, search, localVote]);
 
   return (
-    <div className="center-content-vote">
+    <div className="center-content-vote with-to">
       {winner && (
         <div className="center-max-width d-flex column g-36px">
             <div className="d-flex items-center justify-center all-center column g-20px winner">

@@ -1372,6 +1372,14 @@ select span {
     bottom: 0;
 }
 
+.with-to {
+    background-image: linear-gradient(to bottom, var(--background-opacity), var(--background)),
+    url("/headerback.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
 
 
 
