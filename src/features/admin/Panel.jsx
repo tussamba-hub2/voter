@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { jsPDF } from "jspdf";
 import supabase from "../../lib/supabaseClient";
+import Candidate from "./components/create/Candidate";
 
 export default function Panel() {
   const [loading, setLoading] = useState(false);
@@ -116,6 +117,10 @@ export default function Panel() {
         <i className="fi fi-sr-pennant"></i>
         <span>{loading ? "A publicar..." : "Publicar vencedor"}</span>
       </button>
+
+
+
+      
     </div>
   );
 }

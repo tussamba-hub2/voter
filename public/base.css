@@ -1458,6 +1458,17 @@ select span {
 
 @media screen and (max-width: 480px) {
 
+    .abs-on-search-candidate {
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        padding: 16px;
+        z-index: 100;
+        backdrop-filter: blur(8px);
+        -webkit-backdrop-filter: blur(8px);
+    }
+
 
 
     .center-content-vote .products-listing {

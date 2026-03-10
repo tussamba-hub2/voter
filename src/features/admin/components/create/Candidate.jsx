@@ -154,8 +154,13 @@ export default function Candidate() {
               >
                 <option value="">Selecionar gabinete</option>
 
-                <option value="gprma">GPRMA</option>
-                <option value="recursos humanos">Recursos Humanos</option>
+                <option value="GPDEI">GPDEI</option>
+                <option value="GPJD">GPJD</option>
+                <option value="Transportes">Transportes</option>
+                <option value="GASFIG">GASFIG</option>
+                <option value="GPIST">GPIST</option>
+                <option value="GPAGRSCU">GPAGRSCU</option>
+                <option value="GPU">GPU</option>
               </select>
             </div>
 

@@ -218,7 +218,7 @@ export default function VotePage() {
 
       {!winner && (
         <div className="center-max-width d-flex column g-36px">
-          <div className="d-flex column g-36px">
+          <div className="d-flex column g-36px abs-on-search-candidate">
             <div className="search-input">
               <i className="fi fi-sr-search"></i>
               <input
